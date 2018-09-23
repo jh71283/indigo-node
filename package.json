@@ -1,0 +1,34 @@
+{
+  "name": "indigo-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh71283/indigo-node.git"
+  },
+  "author": "John Harrison",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jh71283/indigo-node/issues"
+  },
+  "homepage": "https://github.com/jh71283/indigo-node#readme",
+  "devDependencies": {
+    "@types/request": "^2.47.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "request-promise-native": "^1.0.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.15",
+    "http-digest-client": "0.0.3",
+    "request": "^2.88.0",
+    "request-digest": "^1.0.10"
+  }
+}
